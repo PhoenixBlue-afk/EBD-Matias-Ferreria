@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBD Lonas & Eslingas</title>
+    <link rel="stylesheet" href=".\CSS\main.css" >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="headertrack">
+    
+       <nav class="logo">
+                <a href="matiasIndex.html">
+                <img src=".\Media\logoEbd.png" id="imglogo" ></a><!--<p> Aqui va el logo en formato .jpg</p></!-->
+       </nav>  
+        <nav class="menu">   
+            <ul class="top">
+                <li class="__navbar"><a href="matiasIndex.html" class="active">Inicio</a></li>
+                <li class="__navbar"><a href="./Pages/lonasMatias.html">Lonas</a></li>
+                <li class="__navbar"><a href="./Pages/eslingasMatias.html">Eslingas</a></li>
+                <li class="__navbar"><a href="./Pages/nosotrosMatias.html">Nosotros</a></li>
+                <li class="__navbar"><a href="./Pages/contactoMatias.html">Contacto</a></li>        
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="__container-index">
+            <h1 class="titulo1"> Estamos aqui para ayudarle con todos sus diseños</h1>
+            <!--<p> aqui va una galeria de fotos de trabajos ya realizados</p>!-->
+            <div class="__card">
+                <img src=".\Media\velaDeco.jpg" id="deco">
+                <p class="__textoCard">
+                    Realizamos velas segun medidas solicitadas, rectangulares, triangulares, pentagonales, solicite su presupeusto ya!
+                </p>
+                <div class="__boton-card">
+                    <a href="./Pages/lonasMatias.html">
+                    
+                        <button class="__button">
+                            Ver mas ➡
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="__card">
+                <img src=".\Media\eslingas.jpg" id="esling">
+                <p class="__texto-card">
+                    Nuestro catalogo de eslingas de primera calidad cumple con normativa Argentina como asi tambien con la internacional, con distantas capacidades y largos listas para utilizar cuando necesite
+                </p>
+                <div class="__boton-card">
+                    <a href="./Pages/eslingasMatias.html">
+                        <button class="__button">
+                            Ver mas ➡
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <div class="__card">
+                <div class="video">
+                    <video src="./Media/telar.mp4" id="videotelar" autoplay loop></video>
+                </div>
+                <p class="__texto-card">
+                    Contamos con un amplio servicio de confecciones, reparaciones, diseños y sugerencias, con un equipo capacitado y listo para ayudarle
+                </p>
+                <div>
+                    <div class="__boton-card">
+                        <a href="#tabla-form">
+                            <button class="__button">
+                                Le ayudaremos sin problemas➡
+                            </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        
+                <h2>Pongamonos en contacto</h2>
+                <table id="tabla-form">
+                    <form id="Lista0">
+                        <th>
+                            <div id="formulario">
+                                <div id="Nombre">
+                                    <label for=Nombre>👨🏻/👩🏻Nombre</label></li>
+                                    <input type=" text"  name=" Nombre" placeholder="Nombre"></input>
+                                </div>
+                                <div id="email">
+                                    <label for=E-mail>@ E-mail</label></li>
+                                    <input type="E-mail" id="E-mail" name=" E-mail" placeholder="E-mail"></input>
+                                </div>
+                                <div class="dropdown" style="margin-bottom: 5px;">
+                                    <button type="button" class="btn btn-lg btn-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <span class="sr-only">Toggle Dropdown</span>
+                                        Seleccione su compañia
+                                    </button>
+                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                      <a class="dropdown-item" style="text-align: center;" href="#">   Personal</a>
+                                      <a class="dropdown-item" style="text-align: center;" href="#">   Claro</a>
+                                      <a class="dropdown-item" style="text-align: center;" href="#">   Movistar</a>
+                                    </div>
+                                  </div>
+                                <div id="Tel">
+                                    <label for="Numero">📲 Numero cel./WhatsApp</label>
+                                    <input type="Numero" id="Numero" name="Numero" placeholder="Ej: 15 5555-5555"></input>
+                                </div>
+                                <div id="ayuda">
+                                    <label for="¿Como-podemos-ayudarte?">❔❔❔¿Como podemos ayudarte?</label>
+                                    <textarea placeholder="Consulte lo que necesite sin inconvenientes" name="¿Como-podemos-ayudarte?" id="¿Como-podemos-ayudarte?" cols="70" rows="30"></textarea>
+                                </div>
+                                <div id="checkTyC">
+                                    <input type="checkbox" id="TermsnConditions" name="acepto" value="1">
+                                    <label for=TermsnConditions>📄 Acepto Terminos y Condiciones</label>
+                                </div>
+                                <div id="botones">
+                                    <input type="submit" value=" Enviar su consulta" class="button">
+                                    <input type="reset" value="Limpiar datos" class="button">
+                                    <input type="button" value=" Sin accion" class="button">
+                                </div>
+                            </div>
+                        </th>
+                        <th id="columna2">
+                            <h2 id="puede-ubicarnos">Puede ubicarnos 📍</h2>
+                            <div id="ubicacion"> <map><iframe id="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13130.147231646908!2d-58.3602822!3d-34.64114375!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a334b3f8433039%3A0x40c59f93350323e!2sIrala%201005%2C%20C1163%20ABU%2C%20Buenos%20Aires!5e0!3m2!1ses!2sar!4v1615320946734!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe></map>
+                                <p>Horario de atencion al cliente:<br>Lunes a Viernes: 08:00 Hs. a 17:00 Hs.</p>
+                            </div>
+                        </th>
+                    </form>
+                </table>
+        
+                <!--aqui va un formulario para enviar con nombre e-mail telefono y la consultacon la leyenda " cuentanos como podemos ayudarle" y por ultimo un boton de enviar!-->
+                <!--<aside>aqui va un mapa de nuestra ubicacion</aside>!-->
+                <!--Aqui van links de hipervinculos con redes sociales de la empresa (instagram, facebook, telegram, whatsapp y youtube)!-->
+    </main>    
+        <footer class="final">
+            <p class="final"> ¡Envios a toda la Argentina!</p>
+            <div id="pie">
+                <a href="#top">↟</a>
+            </div>
+            <p class="final">Todos los derechos reservados EBD Lonas & Eslingas 2021</p>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+        <script src="../js/bootstrap.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

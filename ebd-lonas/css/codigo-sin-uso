@@ -1,0 +1,64 @@
+/*-----------------------------------------------------------------Inicio-cards*/
+
+/*.card {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin-left: 5%;
+    border: 5px solid green;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#BF6B04 ;
+}
+
+.botoncard {
+    padding-top: 200px;
+    padding-right: 0px;
+    text-align: center;
+    width: 95%;
+
+}
+
+.card #videotelar {
+    padding-top: 1%;
+    margin-bottom: 2%;
+    height: 300px;
+    padding-left: 35px;   
+    
+}
+
+.textoCard {
+    width: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+}
+
+#esling {
+    height: 300px;
+    width: 300px;
+}
+
+.card img {
+    margin-left: 35px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 16pt;
+}
+
+.card #esling {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 300px;
+}
+
+.card #deco {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 300px;
+}*/
