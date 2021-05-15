@@ -1,0 +1,484 @@
+/*------------------------------------------------------------------------navbar css*/
+
+.navbar{
+    display: inline-block;
+    padding: 15px;
+}
+
+.menu {
+
+    text-align: right;
+    padding-left: 400px;
+
+}
+
+.active{
+    background-color: #b6b439;
+    
+}
+
+#imglogo {
+    border-radius: 50px;
+}
+
+.headertrack {
+    background: #ffffff;
+    opacity: 5;
+    width: 100%;
+    margin: 0px;
+    height: 80px;
+    position: fixed;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    
+}
+a:hover {
+    color: #A62655;
+
+}
+/*------------------------------------------------------------------------formulario*/
+#ubicacion,
+#puede-ubicarnos {
+    text-align: center;
+    
+}
+
+#formulario {
+    margin-top: 100px; ;
+    text-align: center;
+    text-indent: -40px;
+    color: white;
+    background-color: #BF6B04;
+
+}
+#Nombre {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#Tel {
+    text-align: center;
+}
+
+#email {
+    text-align: center;
+}
+
+#tabla-form {
+
+    width: 1400px;
+    padding-left: 50px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+}
+
+#columna2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    text-align: center;
+    color: white;
+    background-color: #BF6B04;
+}
+/*------------------------------------------------------------------------titulos*/
+h1, h2 {
+    text-align: center;
+    background: #03658C;
+    color: white;
+    margin: 0px;
+
+}
+h1 {
+    background: linear-gradient(to bottom,   white 55%, #03658c);
+    
+}
+
+
+/*------------------------------------------------------------------------pie de pagina*/
+footer {
+    text-align: center;
+    background: #ffffff;
+    margin: 0px,0px,0px,0px;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 0;
+    background: linear-gradient(to top,  #03658c  ,white );
+    
+
+}
+.final {
+    margin: 0px;
+}
+#pie {
+    text-align: right;
+    padding-right: 50px;
+    
+}
+/*------------------------------------------------------------------------tipografia*/
+
+.button:hover {
+    animation-duration: 2s;
+    animation-name:boton;
+    animation-fill-mode: forwards;
+}
+@keyframes button {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
+
+* {
+    text-decoration: none;
+    font-family: cursive;
+    
+}
+body {
+    margin: 0px;
+}
+/*------------------------------------------------------------------------Nosotros*/
+#mainNosotros {
+    width: 100%;
+    height: 100%;
+}
+#manos{
+    width: 250px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 150px;
+    
+    
+}
+.containergrid, .containergrid0{
+    margin-top: 1.5rem;
+    display:grid;
+    grid-template-columns: 50% auto;
+    background-color:#b3cb4c;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    
+
+}
+
+
+#bodynosotros {
+    background-image: url(../Media/Lonas.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1.titulo1 {
+    padding-top: 100px;
+      
+} 
+
+#lema {
+    margin-top: 24px;
+}
+
+#botonNosotros:hover {
+    background: white;
+}
+
+#divBotonNosotros{
+    text-align: right;
+    margin-right: 350px;
+    margin-top: 50px;
+}
+#botonNosotros{
+    border: none;
+    background-color:darkgray;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18pt;
+    text-align: right;
+    position: absolute;
+
+    
+
+}
+span.nosotros{
+    padding-top: 50px;
+}
+span.equipo {
+    margin-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+ 
+/*------------------------------------------------------------------------lonas*/
+
+
+
+#bodyLonas{
+background-color: #b3cb4c;
+}
+.button{
+    border: none;
+    background-color:darkgray;
+    text-decoration: none;
+    border-radius: 10px;
+    font-size: 18pt;
+    margin-bottom:25px;
+}
+.button:hover {
+    animation-duration: 2s;
+    animation-name:scale;
+    animation-fill-mode: forwards;
+}
+.trabajosRealizados{
+    margin-top: 25px;
+}
+
+#img-normalizada {
+  width: 400px; 
+  height: 300px;
+  margin-left: 35%;
+  margin-bottom: 200px;
+  
+}
+
+#img-normalizada0 {
+  width: 400px; 
+  height: 250px;
+  margin-top: 95px;
+  margin-left: 35%;
+  margin-bottom: 155px;
+  
+}
+
+#img-normalizada1 {
+  width: 400px; 
+  height: 290px;
+  margin-top: 75px;
+  margin-left: 35%;
+  margin-bottom: 135px;
+  
+}
+
+#carouselExampleControls {
+  background-color: black;
+}
+
+#vela:hover {
+    animation-duration: 2s;
+    animation-name:vela;
+    animation-fill-mode: forwards;
+}
+
+
+#vela{
+    width: 500px;
+    
+}
+
+#reja:hover {
+    animation-duration: 2s;
+    animation-name:reja;
+    animation-fill-mode: forwards;
+}
+
+#reja{
+    width: 445px;
+}
+
+#pileta:hover {
+    animation-duration: 2s;
+    animation-name:pileta;
+    animation-fill-mode: forwards;
+}
+
+#pileta {
+    width: 250px;
+}
+
+@keyframes vela {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
+
+@keyframes pileta {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
+
+@keyframes reja {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
+
+
+.button:hover {
+    background-color: white;
+
+}
+/*------------------------------------------------------------------------contacto*/
+#bodycontacto {
+    background-image: url(../Media/Lonas.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*------------------------------------------------------------------------eslingas*/
+#bodyEslingas{
+    background-color:#b3cb4c ;
+}
+
+#subEsl {
+    margin-top: 5px;
+}
+
+.eslinga img {
+    grid-area: foto;
+    margin-left: 20px;
+
+}
+.eslinga button {
+    grid-area: boton;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.eslinga button:hover {
+    animation-duration: 2s;
+    animation-name:scale;
+    animation-fill-mode: forwards;
+}
+
+.criquet img {
+    grid-area: foto;
+    margin-left: 20px;
+}
+.criquet button {
+    grid-area: boton;
+    margin-right: 20px;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+}
+.criquet button:hover {
+    animation-duration: 2s;
+    animation-name:scale;
+    animation-fill-mode: forwards; 
+}
+.eslinga , .criquet {
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display:grid;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    " foto texto boton ";
+}
+
+.img {
+    border-radius: 10px;
+}
+
+#texto {
+    grid-area: texto;
+    margin-top: 5rem;
+    font-size: 14pt;
+}
+
+.criquet img:hover {
+    animation-duration: 2s;
+    animation-name:scale;
+    animation-fill-mode: forwards;
+}
+
+.eslinga img:hover {
+    animation-duration: 2s;
+    animation-name:scale;
+    animation-fill-mode: forwards;    
+}
+
+@keyframes scale {
+    0%   {transform: scale(1);}
+    100% {transform: scale(1.1);}
+}
+
+/*------------------------------------------------------------------------inicio*/
+.bodyindex {
+    background:linear-gradient(to bottom,#03658c  ,white );
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin-left: 5%;
+    border: 5px solid green;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#BF6B04 ;
+}
+
+.__button {
+  word-spacing: initial;
+}
+
+.__boton-card {
+    padding-top: 200px;
+    padding-right: 0px;
+    text-align: center;
+    width: 50%;
+
+}
+
+.card #videotelar {
+    padding-top: 1%;
+    margin-bottom: 2%;
+    height: 300px;
+    padding-left: 35px;   
+    
+}
+
+.textoCard {
+    width: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+}
+
+#esling {
+    height: 300px;
+    width: 300px;
+}
+
+.card img {
+    margin-left: 35px;
+}
+
+.card p {
+    text-align: center;
+    font-size: 16pt;
+}
+
+.card #esling {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 300px;
+}
+
+.card #deco {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 300px;
+}
+
+
+
