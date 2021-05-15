@@ -63,12 +63,20 @@ html {
                     background: linear-gradient(to bottom,   $color-primario 55%, $color-terciario);
                     
                 }
-              
+                #__card0 {
+                    margin-left:1cm ;
+                }
+                #__card1 {
+                    margin-left:0.5cm ;
+                }
+                #__card2 {
+                    padding-right:-1cm ;
+                }
                 .__card {
                     margin-top: 0;
                     background-color:$color-primario ;
                     margin-left: 1rem;
-                    display: inline-block;
+                    display: inline-table;
                     width: $ancho-card ;
                     height: $altura-card;
                     position:relative;
@@ -83,7 +91,10 @@ html {
 
                     }
                     .__boton-card {
-                        margin-left: 100px*2;
+                        margin-left: 100px;
+                        #boton-card0 {
+                            margin-left: 50px;
+                        }
                     .__button {
                         font-size: 16pt;
                         border-radius: 20px;

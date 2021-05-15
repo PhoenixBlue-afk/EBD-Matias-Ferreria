@@ -44,29 +44,31 @@ html {
           padding-top: 100px;
           padding-right: 9.25rem;
           background: linear-gradient(to bottom, #ffffff 55%, #03658C); }
+        html body main div.__container-index #__card0 {
+          margin-left: 1cm; }
+        html body main div.__container-index #__card1 {
+          margin-left: 0.5cm; }
+        html body main div.__container-index #__card2 {
+          padding-right: -1cm; }
         html body main div.__container-index .__card {
           margin-top: 0;
           background-color: #ffffff;
           margin-left: 1rem;
-          display:inline-table;
+          display: inline-table;
           width: 450px;
-          height: 500px; }
+          height: 500px;
+          position: relative;
+          top: 1rem; }
           html body main div.__container-index .__card img, html body main div.__container-index .__card #videotelar {
             width: 450px;
             height: 300px; }
           html body main div.__container-index .__card .__texto-card {
             text-align: center; }
-            
           html body main div.__container-index .__card .__boton-card {
-          text-align: center; }
-            html body main div.__container-index .__card .__boton-card0 {
-              margin-left: cm;}
+            margin-left: 100px; }
+            html body main div.__container-index .__card .__boton-card #boton-card0 {
+              margin-left: 50px; }
             html body main div.__container-index .__card .__boton-card .__button {
-              font-size: 16pt;
-              border-radius: 20px;
-              background-color: #b3cb4c;
-              color: #03658C; }
-            html body main div.__container-index .__card .__boton-card0 .__button {
               font-size: 16pt;
               border-radius: 20px;
               background-color: #b3cb4c;
