@@ -26,6 +26,7 @@
     opacity: 5;
     width: 100%;
     margin: 0px;
+    height: 80px;
     position: fixed;
     z-index: 1;
     display: flex;
@@ -44,6 +45,7 @@ a:hover {
 }
 
 #formulario {
+    margin-top: 100px; ;
     text-align: center;
     text-indent: -40px;
     color: white;
@@ -150,14 +152,17 @@ body {
     
 }
 .containergrid, .containergrid0{
+    margin-top: 1.5rem;
     display:grid;
     grid-template-columns: 50% auto;
     background-color:#b3cb4c;
     margin-left: 200px;
     margin-right: 200px;
+    border-radius: 20px;
     
 
 }
+
 
 #bodynosotros {
     background-image: url(../Media/Lonas.jpeg);
@@ -169,10 +174,12 @@ body {
 
 h1.titulo1 {
     padding-top: 100px;
-    
-    
-    
+      
 } 
+
+#lema {
+    margin-top: 24px;
+}
 
 #botonNosotros:hover {
     background: white;
@@ -207,6 +214,8 @@ span.equipo {
  
 /*------------------------------------------------------------------------lonas*/
 
+
+
 #bodyLonas{
 background-color: #b3cb4c;
 }
@@ -225,6 +234,36 @@ background-color: #b3cb4c;
 }
 .trabajosRealizados{
     margin-top: 25px;
+}
+
+#img-normalizada {
+  width: 400px; 
+  height: 300px;
+  margin-left: 35%;
+  margin-bottom: 200px;
+  
+}
+
+#img-normalizada0 {
+  width: 400px; 
+  height: 250px;
+  margin-top: 95px;
+  margin-left: 35%;
+  margin-bottom: 155px;
+  
+}
+
+#img-normalizada1 {
+  width: 400px; 
+  height: 290px;
+  margin-top: 75px;
+  margin-left: 35%;
+  margin-bottom: 135px;
+  
+}
+
+#carouselExampleControls {
+  background-color: black;
 }
 
 #vela:hover {
@@ -334,6 +373,7 @@ background-color: #b3cb4c;
     animation-fill-mode: forwards; 
 }
 .eslinga , .criquet {
+    
     margin-top: 10px;
     margin-bottom: 10px;
     display:grid;
@@ -342,9 +382,13 @@ background-color: #b3cb4c;
     " foto texto boton ";
 }
 
+.img {
+    border-radius: 10px;
+}
+
 #texto {
     grid-area: texto;
-    vertical-align: middle;
+    margin-top: 5rem;
     font-size: 14pt;
 }
 
@@ -367,29 +411,74 @@ background-color: #b3cb4c;
 
 /*------------------------------------------------------------------------inicio*/
 .bodyindex {
-    background-image: url(../Media/Lonas.jpeg);
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
+    background:linear-gradient(to bottom,#03658c  ,white );
+}
+.card {
+    display: flex;
+    flex-direction: row;
+    width: 1300px;
+    margin-left: 5%;
+    border: 5px solid green;
+    border-radius: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color:#BF6B04 ;
 }
 
-.trabajos{
-    padding-top: 15px;
+.__button {
+  word-spacing: initial;
 }
 
+.__boton-card {
+    padding-top: 200px;
+    padding-right: 0px;
+    text-align: center;
+    width: 50%;
 
-#trabajos {
-margin-left: 20%;
-margin-bottom: 4%;
-margin-top: 2%;
-box-shadow:20px 20px 50px 15px grey;
 }
 
+.card #videotelar {
+    padding-top: 1%;
+    margin-bottom: 2%;
+    height: 300px;
+    padding-left: 35px;   
+    
+}
 
+.textoCard {
+    width: auto;
+    padding-left: 100px;
+    padding-top: 50px;
+    color: white;
+}
 
+#esling {
+    height: 300px;
+    width: 300px;
+}
 
+.card img {
+    margin-left: 35px;
+}
 
+.card p {
+    text-align: center;
+    font-size: 16pt;
+}
+
+.card #esling {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 300px;
+}
+
+.card #deco {
+    padding-left: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 300px;
+}
 
 
 
